@@ -1,0 +1,80 @@
+* 
+{
+    padding: 0px;
+    margin: 0;
+}
+body {
+background-image: url(paris.jpg);
+background-repeat: no-repeat;
+
+background-size: cover;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.menu-bar {
+    background-color: brown;
+    text-align:40px;
+    
+    
+} 
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    
+}
+.menu-bar ul li {
+    width: 110px;
+    
+    margin: 15px;
+    padding: 15px;
+} 　 
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+.menu-bar ul li:hover {
+background: rgb(78, 247, 11);
+border-radius: 3px;
+}
+ .Sub-menu-1 {
+     display: none;
+ }
+ .menu-bar ul li:hover .Sub-menu-1
+      {
+       display: block;
+       position: absolute;
+       background: brown;
+       border-radius: 3px;
+       margin-top: 15px;
+       margin-bottom: -15px;
+   }
+   .menu-bar ul li:hover .Sub-menu-1 ul
+   {
+       display: block;
+       margin: 10px;
+   }
+   .menu-bar ul li:hover .Sub-menu-1 ul li
+{
+    width: 150px;
+    padding:10px;
+    border-bottom: 1px;
+    border-radius: 2px;
+    background: transparent;
+    text-align: left;
+}
+.menu-bar ul li:hover .Sub-menu-1 ul li a:hover
+{
+    color: rgb(17, 192, 11);
+}
+.sub-menu-2{
+    display: none;
+    
+}
+.hover-me:hover .sub-menu-2 {
+ position: absolute;
+ display: block;
+ margin-top: -40px;
+ margin-left: 140px;
+ background:brown;
+}
