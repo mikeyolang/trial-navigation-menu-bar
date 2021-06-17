@@ -1,2 +1,2 @@
 # trial-navigation-menu-bar
-This consists off a sample navigation menu
+This consists of a sample navigation menu
